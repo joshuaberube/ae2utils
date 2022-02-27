@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "open=false,facing=up": { "model": "ae2utils:block/barrel/barrel" },
+    "open=false,facing=down": { "model": "ae2utils:block/barrel/barrel", "x": 180 },
+    "open=false,facing=north": { "model": "ae2utils:block/barrel/barrel", "x": 90 },
+    "open=false,facing=east": { "model": "ae2utils:block/barrel/barrel", "x": 90, "y": 90 },
+    "open=false,facing=south": { "model": "ae2utils:block/barrel/barrel", "x": 90, "y": 180 },
+    "open=false,facing=west": { "model": "ae2utils:block/barrel/barrel", "x": 90, "y": 270 },
+
+    "open=true,facing=up": { "model": "ae2utils:block/barrel/barrel_open" },
+    "open=true,facing=down": { "model": "ae2utils:block/barrel/barrel_open", "x": 180 },
+    "open=true,facing=north": { "model": "ae2utils:block/barrel/barrel_open", "x": 90 },
+    "open=true,facing=east": { "model": "ae2utils:block/barrel/barrel_open", "x": 90, "y": 90 },
+    "open=true,facing=south": { "model": "ae2utils:block/barrel/barrel_open", "x": 90, "y": 180 },
+    "open=true,facing=west": { "model": "ae2utils:block/barrel/barrel_open", "x": 90, "y": 270 }
+  }
+}

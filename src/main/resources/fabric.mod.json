@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "ae2utils",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "AE2 Utils",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Jabinator1"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.jabinator1.ae2utils.AE2UtilsMod"
+    ],
+    "client": [
+      "net.jabinator1.ae2utils.AE2UtilsModClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "ae2utils.mixins.json"
   ],
 
   "depends": {
